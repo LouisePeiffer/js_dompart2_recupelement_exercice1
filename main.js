@@ -1,7 +1,6 @@
 // 1
-let tart = document.getElementsByClassName('tartine')[0]
-let textTart = tart.textContent
-console.log(textTart);
+let tart = document.getElementsByClassName('tartine')
+console.log(tart[0].innerText);
 
 // 2 
 let toastie = document.getElementById('toast')
